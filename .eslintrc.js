@@ -10,11 +10,11 @@ module.exports = {
   },
   "env": {
     "browser": true,
-		"node": true,
-		"jasmine": true,
+    "node": true,
+    "jasmine": true,
     "jquery": true,
-		"jest": true,		
-		"serviceworker": true
+    "jest": true,		
+    "serviceworker": true
   },
   "rules": {
     "no-debugger": 0,
@@ -93,15 +93,15 @@ module.exports = {
       2,
       "single",
       {
-				"allowTemplateLiterals": true,
+	allowTemplateLiterals": true,
         "avoidEscape": true
       }
     ],
     "prettier/prettier": [
       "error",
       {
-				"trailingComma": "es5",
-				"tabWidth": 2,
+	"trailingComma": "es5",
+	"tabWidth": 2,
         "singleQuote": true,
         "printWidth": 80,
       }
