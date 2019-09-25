@@ -1,4 +1,15 @@
-# Eslint config
+<h1 align="center">
+  Eslint config
+</h1>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/eslint-config-endormi">
+    <img alt="npm" src="https://img.shields.io/npm/v/eslint-config-endormi?color=green">
+  </a>
+  <a href="https://www.npmjs.com/package/eslint-config-endormi">
+    <img alt="npm" src="https://img.shields.io/npm/dt/eslint-config-endormi">
+  </a>
+</p>
 
 Inspired by Wes Bos' awesome [eslint-config](https://github.com/wesbos/eslint-config-wesbos). Updated to my own liking.
 
