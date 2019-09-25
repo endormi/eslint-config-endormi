@@ -1,5 +1,5 @@
 <h1 align="center">
-  Eslint config
+  ESLint config
 </h1>
 
 <p align="center">
@@ -63,6 +63,7 @@ Then make a global `.eslintrc` file:
 ESLint will look for one in your home directory
 
 `C:\Users\username\.eslintrc` for windows
+
 `~/.eslintrc` for mac
 
 Add this to your `.eslintrc` file:
