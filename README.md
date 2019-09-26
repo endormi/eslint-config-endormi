@@ -81,7 +81,7 @@ Add this to your `.eslintrc` file:
 
 To use from the `CLI`, you can now run `eslint .`
 
-#### If not working
+#### If it's not working
 
 This way you can start fresh
 

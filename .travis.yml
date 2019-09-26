@@ -11,8 +11,6 @@ notifications:
     on_success: never
     on_failure: always
 
-install: npm i
-
 script:
   - npm run linter
   - npm run linter:fix
