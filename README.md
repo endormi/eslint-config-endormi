@@ -7,7 +7,10 @@
     <img alt="npm" src="https://img.shields.io/npm/v/eslint-config-endormi?color=blue">
   </a>
   <a href="https://www.npmjs.com/package/eslint-config-endormi">
-    <img alt="npm" src="https://img.shields.io/npm/dt/eslint-config-endormi">
+    <img alt="downloads" src="https://img.shields.io/npm/dt/eslint-config-endormi">
+  </a>
+  <a href="https://travis-ci.org/endormi/eslint-config-endormi">
+    <img src="https://img.shields.io/endormi/eslint-config-endormi" alt="build" />
   </a>
 </p>
 
