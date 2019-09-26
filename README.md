@@ -10,7 +10,7 @@
     <img alt="downloads" src="https://img.shields.io/npm/dt/eslint-config-endormi">
   </a>
   <a href="https://travis-ci.org/endormi/eslint-config-endormi">
-    <img src="https://img.shields.io/endormi/eslint-config-endormi" alt="build" />
+    <img src="https://img.shields.io/travis/endormi/eslint-config-endormi" alt="build" />
   </a>
 </p>
 
