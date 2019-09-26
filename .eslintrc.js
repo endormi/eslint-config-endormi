@@ -2,7 +2,7 @@ module.exports = {
   "extends": ["airbnb", "prettier", "prettier/react"],
   "parser": "babel-eslint",
   "parserOptions": {
-    "ecmaVersion": 2018,
+    "ecmaVersion": 2020,
     "ecmaFeatures": {
       "impliedStrict": true,
       "classes": true
@@ -11,7 +11,6 @@ module.exports = {
   "env": {
     "browser": true,
     "node": true,
-    "jasmine": true,
     "jquery": true,
     "jest": true,		
     "serviceworker": true
@@ -32,8 +31,7 @@ module.exports = {
     "prefer-const": [
       "error",
       {
-        "destructuring": "any",
-        "ignoreReadBeforeAssign": false
+        "destructuring": "all"
       }
     ],
     "arrow-body-style": ["error", "always"],
@@ -107,8 +105,5 @@ module.exports = {
       }
     ],
   },
-  "plugins": [
-    "html",
-    "prettier"
-  ]
+  "plugins": ["html", "prettier"]
 }
