@@ -30,7 +30,7 @@
   },
   "scripts": {
     "linter": "eslint .",
-    "linter:fix": "eslint --fix"
+    "linter:fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
