@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-endormi",
-  "version": "0.1.1",
+  "version": "0.1.15",
   "description": "ESLint configuration",
   "author": "Endormi <contactendormi@gmail.com>",
   "license": "MIT",
