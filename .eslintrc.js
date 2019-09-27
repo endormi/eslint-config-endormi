@@ -77,7 +77,7 @@ module.exports = {
     "no-shadow": [
       2,
       {
-        "hoist": "functions",
+        "hoist": "all",
         "allow": [
           "resolve",
           "done",
@@ -101,7 +101,7 @@ module.exports = {
 	"trailingComma": "es5",
 	"tabWidth": 2,
         "singleQuote": true,
-        "printWidth": 100,
+        "printWidth": 70,
       }
     ],
   },

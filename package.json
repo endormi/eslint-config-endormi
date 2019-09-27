@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "description": "ESLint configuration",
   "author": "Endormi <contactendormi@gmail.com>",
+  "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
     "babel-eslint": "^10.0.1",

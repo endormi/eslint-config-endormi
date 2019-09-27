@@ -1,18 +1,4 @@
-<h1 align="center">
-  ESLint Config
-</h1>
-
-<p align="center">
-  <a href="https://www.npmjs.com/package/eslint-config-endormi">
-    <img alt="npm" src="https://img.shields.io/npm/v/eslint-config-endormi?color=blue">
-  </a>
-  <a href="https://www.npmjs.com/package/eslint-config-endormi">
-    <img alt="downloads" src="https://img.shields.io/npm/dt/eslint-config-endormi">
-  </a>
-  <a href="https://travis-ci.org/endormi/eslint-config-endormi">
-    <img src="https://img.shields.io/travis/endormi/eslint-config-endormi" alt="build" />
-  </a>
-</p>
+#  ESLint Config [![npm](https://img.shields.io/npm/v/eslint-config-endormi?color=blue)](https://www.npmjs.com/package/eslint-config-endormi) [![npm](https://img.shields.io/npm/dt/eslint-config-endormi)](https://www.npmjs.com/package/eslint-config-endormi) [![Travis (.org)](https://img.shields.io/travis/endormi/eslint-config-endormi)](https://travis-ci.org/endormi/eslint-config-endormi)
 
 Inspired by Wes Bos' awesome [eslint-config](https://github.com/wesbos/eslint-config-wesbos). Updated to my own liking.
 
@@ -35,11 +21,9 @@ After the installation.
 Create a `.eslintrc.js` file in the same directory as your `package.json` file and add this code:
 
 ```js
-{
-  "extends": [
-    "endormi"
-  ]
-}
+module.exports = {
+  extends: "endormi"
+};
 ```
 
 Add these scripts to your `package.json` file
@@ -72,11 +56,9 @@ ESLint will look for one in your home directory
 Add this to your `.eslintrc` file:
 
 ```js
-{
-  "extends": [
-    "endormi"
-  ]
-}
+module.exports = {
+  extends: "endormi"
+};
 ```
 
 To use from the `CLI`, you can now run `eslint .`
