@@ -18,12 +18,14 @@ npx install-peerdeps --dev eslint-config-endormi
 
 After the installation.
 
-Create a `.eslintrc.js` file in the same directory as your `package.json` file and add this code:
+Create a `.eslintrc` file in the same directory as your `package.json` file and add this code:
 
 ```js
-module.exports = {
-  extends: "endormi"
-};
+{
+  "extends": [
+    "endormi"
+  ]
+}
 ```
 
 Add these scripts to your `package.json` file
@@ -56,12 +58,41 @@ ESLint will look for one in your home directory
 Add this to your `.eslintrc` file:
 
 ```js
-module.exports = {
-  extends: "endormi"
-};
+{
+  "extends": [
+    "endormi"
+  ]
+}
 ```
 
 To use from the `CLI`, you can now run `eslint .`
+
+### Settings
+
+If you want to overwrite `eslint` or `prettier` settings, you can add the rules in your `.eslintrc` file. ESLint rules go under "rules" while prettier rules goes under "prettier/prettier".
+
+Example:
+
+```js
+{
+  "extends": [
+    "endormi"
+  ],
+  "rules": {
+    "no-debugger": 0,
+    "no-alert": 0,
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+	      "tabWidth": 4,
+        "singleQuote": true,
+        "printWidth": 70,
+      }
+    ]
+  }
+}
+```
 
 #### If it's not working
 
