@@ -20,6 +20,7 @@ module.exports = {
     "no-alert": 0,
     "react/prop-types": 0,
     "react/no-danger": 0,
+    "prefer-destructuring": 0,
     "react/destructuring-assignment": 0,
     "no-return-assign": ["error", "except-parens"],
     "no-restricted-syntax": [2, "ForInStatement", "LabeledStatement", "WithStatement"],
