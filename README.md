@@ -85,7 +85,7 @@ Example:
       "error",
       {
         "trailingComma": "es5",
-	      "tabWidth": 4,
+        "tabWidth": 4,
         "singleQuote": true,
         "printWidth": 70,
       }
