@@ -22,6 +22,7 @@ module.exports = {
     "react/no-danger": 0,
     "prefer-destructuring": 0,
     "react/destructuring-assignment": 0,
+    "react/jsx-curly-brace-presence": 1,
     "no-return-assign": ["error", "except-parens"],
     "no-restricted-syntax": [2, "ForInStatement", "LabeledStatement", "WithStatement"],
     "no-unused-vars": [
@@ -52,6 +53,7 @@ module.exports = {
       }
     ],
     "no-console": 0,
+    "func-names": 0,
     "import/prefer-default-export": 0,
     "space-before-function-paren": 0,
     "comma-dangle": 0,
@@ -86,7 +88,7 @@ module.exports = {
       }
     ],
     "quotes": [
-      2,
+      1,
       "single",
       {
 	"allowTemplateLiterals": true,
