@@ -56,7 +56,7 @@ module.exports = {
     "func-names": 0,
     "import/prefer-default-export": 0,
     "import/no-extraneous-dependencies": 0,
-    "import/no-duplicates": 0,
+    "import/no-duplicates": 2,
     "import/no-deprecated": 0,
     "space-before-function-paren": 0,
     "comma-dangle": 0,
