@@ -12,7 +12,7 @@ module.exports = {
     "browser": true,
     "node": true,
     "jquery": true,
-    "jest": true,		
+    "jest": true,
     "serviceworker": true
   },
   "rules": {
@@ -103,6 +103,8 @@ module.exports = {
       {
 	"trailingComma": "es5",
 	"tabWidth": 4,
+  "eslintIntegration": true,
+  "stylelintIntegration": true,
         "singleQuote": true,
         "printWidth": 70,
       }
