@@ -41,7 +41,8 @@ module.exports = {
       2,
       {
         "allowTaggedTemplates": true,
-        "allowShortCircuit": true
+        "allowShortCircuit": false,
+        "allowTernary": false
       }
     ],
     "no-param-reassign": [
